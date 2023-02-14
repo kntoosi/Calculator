@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Calculator</name>
+    </assembly>
+    <members>
+        <member name="M:Calculator.Controllers.CalculatorController.getSum(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            sum of two number
+            </summary>
+            <param name="firstNumber"> FirstNumber</param>
+            <param name="secondNumber">SecondNumber</param>
+            <response code="200">Result of Sum</response>
+            <returns></returns>
+        </member>
+        <member name="M:Calculator.Controllers.CalculatorController.getMinus(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Minus of two number
+            </summary>
+            <param name="firstNumber"> FirstNumber</param>
+            <param name="secondNumber">SecondNumber</param>
+            <response code="200">Result of Minus</response>
+            <returns></returns>
+        </member>
+        <member name="M:Calculator.Controllers.CalculatorController.getMultiple(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Multipl of two number
+            </summary>
+            <param name="firstNumber"> FirstNumber</param>
+            <param name="secondNumber">SecondNumber</param>
+            <response code="200">Result of Multipl</response>
+            <returns></returns>
+        </member>
+        <member name="M:Calculator.Controllers.CalculatorController.getDivide(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Divide of two number
+            </summary>
+            <param name="firstNumber"> FirstNumber</param>
+            <param name="secondNumber">SecondNumber</param>
+            <response code="200">Result of Divide</response>
+        </member>
+    </members>
+</doc>
